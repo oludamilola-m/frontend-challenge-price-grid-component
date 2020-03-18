@@ -32,6 +32,7 @@ main {
 .details-section {
   display: flex;
   color: #fff;
+  flex-wrap: wrap;
 }
 
 .details-section > div {
@@ -78,59 +79,12 @@ li {
   margin-right: 15px;
 }
 
-/* base layout styles
+@media (max-width: 375px) {
+  main {
+    width: 85%;
+  }
 
-body {
-   background-color: #F0F0F0;
+  .details-section > div {
+    flex: 100%;
+  }
 }
-
-.main-header {
-    background-color: #fff;
-}
-
-
-
-
-.main-container {
-    color: red;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.main {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px 5px #fff;
-    width: 60%;
-    margin: auto;
-}
-
-.main-container-item {
-    padding: 45px;
-    color: #fff;
-}
-
-.primary {
-    background-color: #2CB3B1;
-}
-.secondary {
-    background-color: #4BBDBD;
-    
-}
-
-button {
-    background-color: hsl(71, 73%, 54%);
-    border-radius: 5px;
-    width: 45%;
-    padding: 10px 15px;
-}
-
-
-
-ul {
-    padding: 0;
-}
-
-li {
-    list-style: none;
-} */
