@@ -32,7 +32,6 @@ main {
 .details-section {
   display: flex;
   color: #fff;
-  flex-wrap: wrap;
 }
 
 .details-section > div {
@@ -82,6 +81,10 @@ li {
 @media (max-width: 375px) {
   main {
     width: 85%;
+  }
+
+  .details-section {
+    flex-wrap: wrap;
   }
 
   .details-section > div {
