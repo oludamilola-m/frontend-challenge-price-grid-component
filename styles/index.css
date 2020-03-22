@@ -78,7 +78,7 @@ li {
   margin-right: 15px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 769px) {
   main {
     width: 85%;
   }
